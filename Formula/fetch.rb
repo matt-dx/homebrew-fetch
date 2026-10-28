@@ -1,18 +1,18 @@
 class Fetch < Formula
   desc "Parallel, chunked, resumable downloads from Azure Blob Storage"
   homepage "https://github.com/matt-dx/fetch"
-  version "1.14.0"
+  version "1.15.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/matt-dx/fetch/releases/download/v1.14.0/fetch-darwin-amd64"
-      sha256 "44010fd65165429c0aab5187018d546bc9a8f442d40a31869c8ca9424d2b941e"
+      url "https://github.com/matt-dx/fetch/releases/download/v1.15.0/fetch-darwin-amd64"
+      sha256 "5c2c64ae8366b1a6844182377f7896edb1909ab3ff5c0bb05006ba6a6b01c8dd"
     end
 
     on_arm do
-      url "https://github.com/matt-dx/fetch/releases/download/v1.14.0/fetch-darwin-arm64"
-      sha256 "4c642b4bf1281151344e919677d83f205607a92351945bf2053ed7a89531df64"
+      url "https://github.com/matt-dx/fetch/releases/download/v1.15.0/fetch-darwin-arm64"
+      sha256 "228bf1d057081164078132d863698147b651d99c6505b58f4ca53b70b57803c6"
     end
   end
 
